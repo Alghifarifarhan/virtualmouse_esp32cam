@@ -1,9 +1,11 @@
-Tutorial program mouse virtual ESP32 CAM
-cara menjalankan program:
-1. siapkan alat & bahan yang dibutuhkan yaitu ESP32 CAM, Modul FTDI CP2102, 5 kabel jumper female to female, dan kabel micro-USB.
-2. rangkai mikrokontroller menggunakan alat dan bahan diatas seperti pada gambar rangkaian file repository.
-3. masuk ke software arduino, buka file web_camera_esp32.ino, lalu hubungkan mikrokontroller yang telah di rangkai menggunakan kabel micro-USB ke PC/Laptop.
-4. compile code pada software arduino hingga selesai, setelah itu buka serial monitor, lalu cabut kabel jumper yang menghubungkan pin 100 dengan GND pada ESP32 CAM, lalu klik tombol reset pada ESP32 CAM, maka akan muncul ip kamera berserta resolusi nya.
-5. copy ip kamera dan salah satu resolusi nya, kemudian buat folder yang di dalam nya berisi file deteksitangan.py dan virtualmouse.py, setelah itu buka folder menggunakan vscode atau kode editor yang kalian pakai.
-6. pada file deteksitangan.py dan virtualmouse.py, masukan kode ip kamera yg telah di copy pada serial monitor arduino.
-7. lalu jalankan kode python dan program akan berjalan.
+ESP32 CAM virtual mouse program tutorial
+
+how to run the program:
+
+1. prepare the tools & materials needed, namely ESP32 CAM, CP2102 FTDI Module, 5 female to female jumper cables, and micro-USB cables.
+2. assemble the microcontroller using the above tools and materials as in the repository file circuit image.
+3. enter the arduino software, open the web_camera_esp32.ino file, then connect the microcontroller that has been assembled using a micro-USB cable to the PC / laptop.
+4. compile the code in the arduino software until it is complete, after that open the serial monitor, then unplug the jumper cable that connects pin 100 with GND on the ESP32 CAM, then click the reset button on the ESP32 CAM, the camera ip will appear along with the resolution.
+5. copy the camera ip and one of the resolutions, then create a folder that contains the detection file. py and virtualmouse.py, after that open the folder using vscode or the editor code that you use.
+6. in the deteksitangan.py and virtualmouse.py files, enter the camera ip code that has been copied on the arduino serial monitor.
+7. then run the python code and the program will run.
